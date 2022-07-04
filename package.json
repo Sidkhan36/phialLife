@@ -1,8 +1,11 @@
 {
   "name": "solidity-nextjs-starter",
+  "homepage": "https://Sidkhan36.github.io/reactlive",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -12,6 +15,7 @@
     "@openzeppelin/contracts": "^4.2.0",
     "dotenv": "^10.0.0",
     "ethers": "^5.4.5",
+    "gh-pages": "^4.0.0",
     "next": "11.0.1",
     "prettier": "^2.7.1",
     "react": "17.0.2",
